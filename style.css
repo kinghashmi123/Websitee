@@ -5,7 +5,7 @@
 
 .main{
  width: 100%;
-background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(4.jpg);
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
 background-position: center;
 background-size: cover;
 height: 109vh;
@@ -25,7 +25,7 @@ height: 109vh;
 }
 
 .logo{
-    color:  skyblue;
+    color: #ff7200;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -63,7 +63,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color:  skyblue
+    color: #ff7200
 }
 
 .Themee{
@@ -112,7 +112,7 @@ ul li a:hover{
    width: 200px;
    height: 40px;
    background: transparent;
-   border: 1px solid  skyblue;
+   border: 1px solid #ff7200;
    margin-top: 13px;
    color: #fff;
    border-right: none;
@@ -127,8 +127,8 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background:  skyblue;
-    border: 2px solid  skyblue;
+    background: #ff7200;
+    border: 2px solid #ff7200;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -172,7 +172,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background:  skyblue;
+    background: #ff7200;
     border: none;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -192,7 +192,7 @@ ul li a:hover{
 }
 
 .content span{
-      color:  skyblue;
+      color: #ff7200;
     font-size: 60px;
 
 }
@@ -212,7 +212,7 @@ ul li a:hover{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: skyblue;
+    color:#ff7200;
     font-size: 22px;
     background-color: #fff;
     border-radius: 10px;
@@ -224,7 +224,7 @@ ul li a:hover{
     width: 240px;
     height: 35px;
     background: transparent;
-    border-radius: 1px solid  skyblue;
+    border-radius: 1px solid #ff7200;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -246,7 +246,7 @@ ul li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background:  skyblue;
+    background: #ff7200;
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -258,7 +258,7 @@ ul li a:hover{
 
 .btnn:hover{
     background: #fff;
-    color:  skyblue;
+    color: #ff7200;
 }
 .btnn a{
     text-decoration: none;
@@ -276,7 +276,7 @@ ul li a:hover{
 
 .form .link a{
     text-decoration: none;
-    color:  skyblue;
+    color: #ff7200;
 
 }
 
@@ -302,7 +302,7 @@ ul li a:hover{
 }
 
 .icons ion-icon:hover{
-    color:  skyblue;
+    color: #ff7200;
 }
 
 @media screen and (max-width:1200px) {
@@ -381,7 +381,7 @@ ul li a:hover{
         width: 240px;
         height: 35px;
         background: transparent;
-        border-radius: 1px solid  skyblue;
+        border-radius: 1px solid #ff7200;
         border-top: none;
         border-right: none;
         border-left: none;
