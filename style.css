@@ -5,7 +5,7 @@
 
 .main{
  width: 100%;
-background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(4.jpg);
 background-position: center;
 background-size: cover;
 height: 109vh;
@@ -25,7 +25,7 @@ height: 109vh;
 }
 
 .logo{
-    color: #ff7200;
+    color:  skyblue;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -63,7 +63,40 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200
+    color:  skyblue
+}
+
+.Themee{
+    display: none;
+    top: 1.8%;
+    position: relative;
+}
+
+.Themee ul{
+    position: absolute;
+}
+
+.menu ul li:hover .Themee{
+    display: block;
+    position: absolute;
+    background-color: #000;
+    margin-top: 17px;
+    margin-left: -80px;
+}
+
+.menu ul li:hover .Themee ul{
+    display: block;
+    margin: 5px;
+}
+
+.menu ul li:hover .Themee ul li{
+    width: 110px;
+    padding: 12px;
+    border-bottom: 1px #fff;
+    background: #000;
+    transition: 0.4s ease;
+    text-align: left;
+    border-radius: 0;
 }
 
 .search{
@@ -79,7 +112,7 @@ ul li a:hover{
    width: 200px;
    height: 40px;
    background: transparent;
-   border: 1px solid #ff7200;
+   border: 1px solid  skyblue;
    margin-top: 13px;
    color: #fff;
    border-right: none;
@@ -94,8 +127,8 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
+    background:  skyblue;
+    border: 2px solid  skyblue;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -139,7 +172,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background:  skyblue;
     border: none;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -159,7 +192,7 @@ ul li a:hover{
 }
 
 .content span{
-      color: #ff7200;
+      color:  skyblue;
     font-size: 60px;
 
 }
@@ -179,7 +212,7 @@ ul li a:hover{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color:#ff7200;
+    color: skyblue;
     font-size: 22px;
     background-color: #fff;
     border-radius: 10px;
@@ -191,7 +224,7 @@ ul li a:hover{
     width: 240px;
     height: 35px;
     background: transparent;
-    border-radius: 1px solid #ff7200;
+    border-radius: 1px solid  skyblue;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -213,7 +246,7 @@ ul li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background: #ff7200;
+    background:  skyblue;
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -225,7 +258,7 @@ ul li a:hover{
 
 .btnn:hover{
     background: #fff;
-    color: #ff7200;
+    color:  skyblue;
 }
 .btnn a{
     text-decoration: none;
@@ -243,7 +276,7 @@ ul li a:hover{
 
 .form .link a{
     text-decoration: none;
-    color: #ff7200;
+    color:  skyblue;
 
 }
 
@@ -269,7 +302,7 @@ ul li a:hover{
 }
 
 .icons ion-icon:hover{
-    color: #ff7200;
+    color:  skyblue;
 }
 
 @media screen and (max-width:1200px) {
@@ -348,7 +381,7 @@ ul li a:hover{
         width: 240px;
         height: 35px;
         background: transparent;
-        border-radius: 1px solid #ff7200;
+        border-radius: 1px solid  skyblue;
         border-top: none;
         border-right: none;
         border-left: none;
@@ -359,3 +392,5 @@ ul li a:hover{
         font-family: sans-serif;
     
 }
+
+
